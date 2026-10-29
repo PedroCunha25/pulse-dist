@@ -1,0 +1,20 @@
+PULSE — avisos de terceiros
+===========================
+
+Packages/WhoopProtocol é código vendorizado do projeto NOOP (NoopApp), revisão 2a1de76,
+licenciado sob PolyForm Noncommercial 1.0.0. O texto completo da licença está em
+Packages/WhoopProtocol/LICENSE e o aviso exigido é preservado aqui:
+
+  Required Notice: Copyright 2026 NoopApp
+
+Por isso o PULSE é de uso pessoal e não comercial.
+
+GRDB.swift — https://github.com/groue/GRDB.swift (licença MIT), usada para persistência SQLite.
+
+Os factos de protocolo WHOOP 4.0 (UUIDs, offsets, opcodes, CRC) são informação factual e
+não estão protegidos por direitos de autor (ver Packages/WhoopProtocol/NOTICE e
+Packages/WhoopProtocol/LICENSE, secção "Scope and notices"). O restante código do PULSE
+(PulseKit e app) é escrito de raiz.
+
+O PULSE é independente e não tem qualquer relação com a WHOOP, Inc. "WHOOP" é usado apenas
+para identificar o hardware com que a app interopera.

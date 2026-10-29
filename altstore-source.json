@@ -1,0 +1,34 @@
+{
+  "name": "PULSE",
+  "identifier": "io.github.pedrocunha25.pulse.source",
+  "sourceURL": "https://raw.githubusercontent.com/PedroCunha25/pulse-dist/main/altstore-source.json",
+  "subtitle": "A tua WHOOP 4.0, sem nuvem.",
+  "description": "Fonte SideStore/AltStore do PULSE, uma app pessoal e não comercial para ler a tua pulseira WHOOP 4.0 por Bluetooth. Não afiliada à WHOOP, Inc.",
+  "iconURL": "https://raw.githubusercontent.com/PedroCunha25/pulse-dist/main/docs/icon.png",
+  "website": "https://github.com/PedroCunha25/pulse-dist",
+  "tintColor": "3EE07A",
+  "apps": [
+    {
+      "name": "PULSE",
+      "bundleIdentifier": "io.github.pedrocunha25.pulse",
+      "developerName": "Pedro Cunha",
+      "subtitle": "Dados da tua WHOOP 4.0, só no teu iPhone.",
+      "localizedDescription": "O PULSE liga-se por Bluetooth à tua pulseira WHOOP 4.0, descarrega o histórico e calcula recuperação, esforço e sono no próprio telemóvel. Os dados ficam só no iPhone (SQLite local) e a integração com o Apple Health é opcional.\n\nProjeto independente e experimental, de uso pessoal e não comercial. Não é afiliado à WHOOP, Inc. e não é um dispositivo médico.",
+      "iconURL": "https://raw.githubusercontent.com/PedroCunha25/pulse-dist/main/docs/icon.png",
+      "tintColor": "3EE07A",
+      "category": "healthcare-fitness",
+      "screenshotURLs": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.healthkit"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "O PULSE usa o Bluetooth para ligar à tua pulseira WHOOP 4.0 e guardar neste telemóvel os teus dados de frequência cardíaca.",
+          "NSHealthUpdateUsageDescription": "O PULSE escreve no Apple Health a frequência cardíaca, a frequência cardíaca em repouso, o sono e os treinos da tua WHOOP 4.0, apenas se ativares a exportação em Mais › Permissões. Não lê nada do Apple Health."
+        }
+      },
+      "versions": []
+    }
+  ],
+  "news": []
+}
