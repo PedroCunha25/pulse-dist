@@ -27,7 +27,17 @@
           "NSHealthUpdateUsageDescription": "O PULSE escreve no Apple Health a frequência cardíaca, a frequência cardíaca em repouso, o sono e os treinos da tua WHOOP 4.0, apenas se ativares a exportação em Mais › Permissões. Não lê nada do Apple Health."
         }
       },
-      "versions": []
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-10-29",
+          "localizedDescription": "PULSE 0.1.0 (build 1). Uso pessoal e não comercial.",
+          "downloadURL": "https://github.com/PedroCunha25/pulse-dist/releases/download/v0.1.0/PULSE-v0.1.0.ipa",
+          "size": 3759117,
+          "minOSVersion": "17.0"
+        }
+      ]
     }
   ],
   "news": []
