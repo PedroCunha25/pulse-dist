@@ -29,6 +29,15 @@
       },
       "versions": [
         {
+          "version": "0.4.1",
+          "buildVersion": "10",
+          "date": "2026-10-30",
+          "localizedDescription": "PULSE 0.4.1 (build 10). Uso pessoal e não comercial.",
+          "downloadURL": "https://github.com/PedroCunha25/pulse-dist/releases/download/v0.4.1/PULSE-v0.4.1.ipa",
+          "size": 22411673,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4.0",
           "buildVersion": "9",
           "date": "2026-10-30",
